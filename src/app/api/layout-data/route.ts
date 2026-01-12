@@ -58,11 +58,11 @@ const footerData = {
     },
     contactDetails: {
         name:"Contact Details",
-        address: "81 Rivington Street London EC2A 3AY",
-        email: "hello@SOFTYSTA.agency",
-        phone: "0105 192 3556"
+        address: "Barisal, Bangladesh",
+        email: "softysta.@gmail.com",
+        phone: "+880 1830-299003"
     },
-    copyright: "©2025 SOFTYSTA. All Rights Reserved"
+    copyright: "©2026 SOFTYSTA | All Rights Reserved"
 };
 
 export const GET = async () => {
