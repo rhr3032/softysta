@@ -58,7 +58,7 @@ const footerData = {
     contactDetails: {
         name:"Contact Details",
         address: "Barisal, Bangladesh",
-        email: "softysta.@gmail.com",
+        email: "softysta@gmail.com",
         phone: "+880 1830-299003"
     },
     copyright: "©2026 SOFTYSTA | All Rights Reserved"
