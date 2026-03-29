@@ -9,12 +9,14 @@ export const TextGenerateEffect = ({
   filter = true,
   duration = 0.5,
   delay = 0,
+  wordClassName = '',
 }: {
   words: string;
   className?: string;
   filter?: boolean;
   duration?: number;
   delay?: number;
+  wordClassName?: string;
 }) => {
   const [scope, animate] = useAnimate();
   const triggerRef = useRef<HTMLSpanElement | null>(null); // separate ref for inView
@@ -49,7 +51,7 @@ export const TextGenerateEffect = ({
       {wordsArray.map((word, idx) => (
         <motion.span
           key={word + idx}
-          className="dark:text-white text-black opacity-0"
+          className={cn("opacity-0", wordClassName)}
           style={{ filter: filter ? "blur(10px)" : "none" }}
         >
           {word}{" "}

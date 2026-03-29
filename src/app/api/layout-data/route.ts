@@ -18,12 +18,12 @@ const footerData = {
             {
                 icon: "/images/home/footerSocialIcon/twitter.svg",
                 dark_icon: "/images/home/footerSocialIcon/twitter_dark.svg",
-                link: "https://twitter.com"
+                link: "https://x.com/softysta25"
             },
             {
                 icon: "/images/home/footerSocialIcon/linkedin.svg",
                 dark_icon: "/images/home/footerSocialIcon/linkedin_dark.svg",
-                link: "https://linkedin.com/in"
+                link: "https://www.linkedin.com/company/softysta/"
             },
             {
                 icon: "/images/home/footerSocialIcon/dribble.svg",
@@ -33,7 +33,7 @@ const footerData = {
             {
                 icon: "/images/home/footerSocialIcon/instagram.svg",
                 dark_icon: "/images/home/footerSocialIcon/instagram_dark.svg",
-                link: "https://instagram.com"
+                link: "https://www.instagram.com/softysta/"
             }
         ]
     },
@@ -59,9 +59,9 @@ const footerData = {
         name:"Contact Details",
         address: "Barisal, Bangladesh",
         email: "softysta@gmail.com",
-        phone: "+880 1830-299003"
+        phone: "+880 9638-209420"
     },
-    copyright: "©2026 SOFTYSTA | All Rights Reserved"
+    copyright: `©${new Date().getFullYear()} SOFTYSTA | All Rights Reserved`
 };
 
 export const GET = async () => {

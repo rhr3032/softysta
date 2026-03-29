@@ -26,11 +26,15 @@ function Solutions() {
               className='flex flex-col gap-6 items-center md:max-w-3xl mx-auto'>
               <div className='flex flex-col gap-3 items-center text-center'>
                 <h2 className='text-3xl md:text-5xl dark:text-dark_black'>
-                  <TextGenerateEffect words="Innovative solutions for" />
+                  <TextGenerateEffect
+                    words="Innovative solutions for"
+                    wordClassName="dark:text-dark_black text-black"
+                  />
                   <TextGenerateEffect
                     words="bold brands"
                     delay={1}
                     className="italic font-normal instrument-font"
+                    wordClassName="dark:text-dark_black text-black"
                   />
                 </h2>
                 <p className='dark:text-dark_black'>
