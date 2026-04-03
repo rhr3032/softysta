@@ -111,7 +111,7 @@ const creativeMindList = [
   {
     image: '/images/home/creative/creative_img_1.png',
     name: 'Reshad Uzzaman Reshad',
-    position: 'CEO & Soft. Engineer',
+    position: 'Chief Executive Officer',
     linkedinLink: 'https://www.linkedin.com/in/web-developer-rashed-uzzaman-reshad/',
     portfolioLink: 'https://reshadportfolio.vercel.app/',
     mailLink: 'miakala7@gmail.com',

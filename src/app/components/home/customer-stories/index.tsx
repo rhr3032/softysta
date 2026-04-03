@@ -73,9 +73,9 @@ function CustomerStories() {
                     </span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <h2 className="text-7xl font-medium dark:text-dark_black">91%</h2>
+                    <h2 className="text-7xl font-medium dark:text-dark_black">98%</h2>
                     <h3 className="dark:text-dark_black text-2xl">
-                      Clients recommend our design services.
+                      Clients recommend our design & development services.
                     </h3>
                   </div>
                 </motion.div>
