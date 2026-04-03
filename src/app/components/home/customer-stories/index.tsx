@@ -51,7 +51,7 @@ function CustomerStories() {
                       “SOFTYSTA’s expertise transformed my vision into success!”
                     </h3>
                     <div className="flex flex-col gap-1">
-                      <p className="text-white font-medium">Kabir Shah</p>
+                      <p className="text-white font-medium">Kabir Shah,</p>
                       <p className="text-white/60 text-sm font-medium">
                         Founder of Chipsland
                       </p>
